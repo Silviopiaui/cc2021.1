@@ -2,15 +2,28 @@ body{
     background:skyblue; margin-top:0%;margin-left: 10%;margin-right :10%; 
     margin-bottom: 0%;
     }
-h1{ 
+h1, h3{ 
 color: red;
   }
 h2{
     font-family: sans-serif;
   }
-p {font-family: monospace; text-align: left;}
-h3{
-    color: red;
-  }
+p {
+    font-family: monospace;
+}
 
-
+.imagem {
+    display: table-cell;
+    float: left;
+}
+.paragrafo {
+    display: table-cell;
+    float: left;
+    width: 600px;
+    margin-left: 10px;
+   
+    
+}
+.principal{
+    display: table;
+}
