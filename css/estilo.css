@@ -10,20 +10,32 @@ h2{
   }
 p {
     font-family: monospace;
-}
+    margin-right: 0%;
+    text-align: justify;
 
-.imagem {
-    display: table-cell;
-    float: left;
 }
-.paragrafo {
-    display: table-cell;
+#flutuar{
     float: left;
-    width: 600px;
-    margin-left: 10px;
-   
-    
-}
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 200px;
+    width: auto;
+    align-items: center;
+}   
 .principal{
     display: table;
+}
+.txttest{
+    display: inline-block;
+    text-align: justify;
+}
+fieldset{
+    display: inline-block;
+    width: 100%;
+}
+.frame1{
+    width: 49%;
+    height: 320px;
+    border-radius: 10px;
 }
