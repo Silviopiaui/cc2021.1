@@ -9,33 +9,41 @@
 </head>
 
 <body>
-    <form>
-        <h3>Qual o seu nome?</h3>
-          <label for="fname">Primeiro nome:</label><br>
-          <input type="text" id="fname" value=""><br>
-          <label for="iname"> Último nome:</label><br>
-          <input type="text" id="iname" value=""><br>
-        <h3>Qual o seu sexo?</h3>  
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Menino</label><br>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="male">Menina</label><br>
-        <input type="radio" id="other" name="gender" value="other">
-        <label for="male">Outro</label><br>
-        <h3>O que gostaria de enconcontrar em nosso catálago?</h3>
-        <input type="checkbox" id="produto1" name="produto1" value="Bike">
-        <label for="produto1">Notebooks</label><br>
-        <img src="img/notebook.png" height="80" width="auto"><br>
-        <input type="checkbox" id="produto2" name="produto2" value="car">
-        <label for="produto1">Tablets</label><br>
-        <img src="img/tablet.png" height="60" width="auto"><br>
-        <input type="checkbox" id="produto3" name="produto3" value="smartphone">
-        <label for="produto3">Smatphone</label><br>
-        <img src="img/smartphone.png" height="50" width="auto"><br>
-        <input type="submit" value="submit">
-    </form>
+    <form class="geral">
+        <fieldset>
+        <div id=nome>
+            <h3>Qual o seu nome?</h3>
+                <label for="fname">Primeiro nome:</label>
+                <input type="text" id="fname" value="">
+                <label for="iname"> Último nome:</label>
+                <input type="text" id="iname" value="">
+        </div>
+        </fieldset class="nome">
+        <div>
+            <h3>Qual o seu sexo?</h3>  
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Menino</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="male">Menina</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="male">Outro</label><br>
+        </div>
+        <div>
+            <h3>O que gostaria de enconcontrar em nosso catálago?</h3>
+                <input type="checkbox" id="produto1" name="produto1" value="Bike">
+                <label for="produto1">Notebooks</label><br>
+                <img src="img/notebook.png" height="80" width="auto"><br>
+                <input type="checkbox" id="produto2" name="produto2" value="car">
+                <label for="produto1">Tablets</label><br>
+                <img src="img/tablet.png" height="60" width="auto"><br>
+                <input type="checkbox" id="produto3" name="produto3" value="smartphone">
+                <label for="produto3">Smatphone</label><br>
+                <img src="img/smartphone.png" height="50" width="auto"><br>
+                <input type="submit" value="submit">
+        </div>        
+    </form><br>
 <a href="index.html">Home</a><br>
-<a href="teste.html">Sobre</a>
+<a href="teste.html">Sobre</a><br>
 </body>
 </html>
 
