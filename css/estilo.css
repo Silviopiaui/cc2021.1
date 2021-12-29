@@ -1,3 +1,7 @@
+*{
+   
+    
+}
 body{
     background:skyblue; margin-top:0%;margin-left: 10%;margin-right :10%; 
     margin-bottom: 0%;
@@ -32,10 +36,13 @@ p {
 }
 fieldset{
     display: inline-block;
-    width: 100%;
+    border: 0px;
 }
 .frame1{
     width: 49%;
     height: 320px;
-    border-radius: 10px;
+    border: 10px;
 }
+#nome input{
+    border-radius: 5px;
+
